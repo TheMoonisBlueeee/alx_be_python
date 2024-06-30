@@ -1,5 +1,5 @@
 print("How old are you?")
-age=27
+age = input("Enter age:")
 def add_thirty_to_age(age):
     new_age= 30 + age
     return new_age
