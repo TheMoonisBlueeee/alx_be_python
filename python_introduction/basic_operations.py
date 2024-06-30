@@ -1,13 +1,8 @@
-number1= 10
-print(number1)
-number2= 5
-print(number2)
+"number1= 10"
+"number2= 5"
 sum=number1 + number2
 print(sum)
 differnce=number1-number2
 print(differnce)
 product=number1*number2
 print(product)
-git add
-git commit
-git push
