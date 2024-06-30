@@ -8,3 +8,6 @@ differnce=number1-number2
 print(differnce)
 product=number1*number2
 print(product)
+git add
+git commit
+git push
