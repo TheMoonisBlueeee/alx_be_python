@@ -1,4 +1,4 @@
-weather= input("What's the weather like today?sunny/rainy/cold:")
+weather= input("What's the weather like today? (sunny/rainy/cold:")
 
 match weather:
     case "sunny":
@@ -9,4 +9,3 @@ match weather:
         print("Make sure to wear a warm coat and a scarf")
     case _:
         print("Sorry, I don't have recommendations for this weather")
-
