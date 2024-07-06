@@ -1,6 +1,6 @@
-number1=input("Please input the first number:")
-number2=input("Please input the second number:")
-operation=input("Please pick an order of operation (+,-,*,/):")
+number1=input("Enter the first number:")
+number2=input("Enter the second number:")
+operation=input("Choose an operation (+,-,*,/):")
 result=number1
 
 match operation:
