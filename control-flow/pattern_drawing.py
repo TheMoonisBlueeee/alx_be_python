@@ -1,5 +1,8 @@
-pattern=int(input("Enter the size of the pattern:"))
+pattern = int(input("Enter the size of your pattern:"))
 
-for i in range(1,11):
-    product= pattern * i
-    print(f"{pattern} * {i} = {product}")
+for i in range(1, pattern+ 1):
+  # Outer loop controls the number of rows
+  for j in range(1, pattern + 1):
+    # Inner loop prints asterisks for each row
+    print("*", end="")
+  print()  # Move to a new line after each row of asterisks
