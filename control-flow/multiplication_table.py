@@ -1,8 +1,5 @@
-number=int(input("Enter a number to see its multiplcation table:"))
+pattern=int(input("Enter the size of the pattern:"))
 
-for number in range(number):
-    for multiplier in range(11):
-        print(number*multiplier)
-
-
- 
+for i in range(1,11):
+    product= pattern * i
+    print(f"{pattern} * {i} = {product}")
